@@ -1,51 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CROCFAST® Bird Protection - AeroSolutions</title>
+    <title>About AeroSolutions</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
-
     <!-- Header Section -->
-    <header>
-        <div class="container">
-            <h1>AeroSolutions</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+    <section>
+        <header class="container bg-body shadow-sm fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light m-0 p-0">
+                <div class="container-fluid" style="height: 70px">
+                    <a class="navbar-brand align-items-center d-flex text-danger" href="./home.html">
+                        <img src="images/logo.png" alt="logo" class="img-fluid" style="width: 60px; height: 60px" /><b>
+                            AeroSolutions</b>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-grow-0 bg-white s-css" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+                            <li class="nav-item mx-2 text-center pt-2 pt-lg-0">
+                                <a class="nav-link fw-bold text-black active a-hover" href="./home.html">Home</a>
+                            </li>
+                            <li class="nav-item mx-2 text-center pt-2 pt-lg-0">
+                                <a class="nav-link fw-bold text-black a-hover" href="./service.html">Service</a>
+                            </li>
+                            <li class="nav-item mx-2 text-center pt-2 pt-lg-0">
+                                <a class="nav-link fw-bold text-black a-hover" href="./home.html#staff">Our Staff</a>
+                            </li>
+                            <li class="nav-item mx-2 text-center pt-2 pt-lg-0">
+                                <a class="nav-link fw-bold text-black a-hover" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item mx-2 text-center pt-2 pt-lg-0">
+                                <a class="nav-link fw-bold rounded-pill border border-danger px-4 text-danger c-hover"
+                                    href="./home.html#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
-        </div>
-    </header>
+        </header>
+    </section>
 
-    <!-- CROCFAST® Bird Protection Information -->
+    <!-- About AeroSolutions Section -->
+
+
     <section id="crocfast">
-        <div class="container">
-            <h2>CROCFAST® Bird Protection</h2>
-            <p>
-                The CROCFAST® bird diverters are installed using drones to protect birds from collisions with high-voltage power lines. This technology is especially important in areas with large bird populations and migratory routes.
+        <div class="container top-hidden-seprator">
+            <h1 class="text-center mb-4 pt-4 fs-1">CROCFAST® <span class="text-danger fs-1">Bird Protection</span></h1>
+            <p class="text-center px-5">
+                The <span class="fw-bold">CROCFAST®</span> bird diverters are installed using drones to protect birds from collisions with
+                high-voltage power lines. This technology is </br> especially important in areas with large <span class="fw-bold text-danger">bird
+                    populations</span> and migratory routes.
             </p>
-            <p>
-                Drones allow precise, quick, and safe installation of these diverters, reducing the need for large teams or heavy equipment. This method is environmentally friendly and effective in preventing bird fatalities and ensuring compliance with environmental protection laws.
-            </p>
-            <p>
-                The CROCFAST® system is designed for durability and minimal environmental impact. It’s suitable for both new and existing power lines and wind turbine installations, ensuring long-term protection for wildlife and energy infrastructure.
-            </p>
-        </div>
+            <div class="container">
+                <!-- Image Section -->
+                <div class="custom-image text-center mb-3">
+                    <img class="rounded-4 img-fluid " src="images/crocfast-bird-protection.jpg"
+                        alt="Professional Drone Services">
+                </div>
+                <div class="para-in-headerspace my-4 mx-2">
+                    <p>
+                        Drones allow precise, quick, and safe installation of these diverters, reducing the need for
+                        large teams or heavy equipment. This method is environmentally friendly and effective in
+                        preventing bird fatalities and ensuring compliance with environmental protection laws.
+                    </p>
+                    <p>
+                        The CROCFAST® system is designed for durability and minimal environmental impact. It’s suitable
+                        for both new and existing power lines and wind turbine installations, ensuring long-term
+                        protection for wildlife and energy infrastructure.
+                    </p>
+                </div>
+            </div>
     </section>
 
     <!-- Footer Section -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 AeroSolutions. All rights reserved.</p>
+    <footer class="container-fluid bg-white shadow-css mt-5">
+        <div class="text-center pt-5 pb-3">
+            <p class="mb-0">© 2024 AeroSolutions. All Rights Reserved.</p>
+            <p class="d-flex justify-content-center align-items-center mt-0">
+                <a href="#" class="nav-link text-danger me-2">Privacy Policy</a>  | 
+                <a href="#" class="nav-link text-danger ms-2">Terms of Service</a>
+            </p>
         </div>
     </footer>
 
+
 </body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
 </html>
