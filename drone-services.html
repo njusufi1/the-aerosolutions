@@ -1,54 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Professional Drone Services - AeroSolutions</title>
+    <title>Professional Drone Services</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
 
     <!-- Header Section -->
-    <header>
-        <div class="container">
-            <h1>AeroSolutions</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+    <section>
+        <header class="container bg-body shadow-sm fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light m-0 p-0">
+                <div class="container-fluid" style="height: 70px">
+                    <a class="navbar-brand" href="./home.html">
+                        <img src="images/logo.png" alt="logo" class="img-fluid" style="width: 60px; height: 60px" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-grow-0 bg-white s-css" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+                            <li class="nav-item mx-2 text-center pt-2 pt-lg-0">
+                                <a class="nav-link fw-bold text-black active a-hover" href="./home.html">Home</a>
+                            </li>
+                            <li class="nav-item mx-2 text-center pt-2 pt-lg-0">
+                                <a class="nav-link fw-bold text-black a-hover" href="./service.html">Service</a>
+                            </li>
+                            <li class="nav-item mx-2 text-center pt-2 pt-lg-0">
+                                <a class="nav-link fw-bold text-black a-hover" href="./home.html#staff">Our Staff</a>
+                            </li>
+                            <li class="nav-item mx-2 text-center pt-2 pt-lg-0">
+                                <a class="nav-link fw-bold text-black a-hover" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item mx-2 text-center pt-2 pt-lg-0">
+                                <a class="nav-link fw-bold rounded-pill border border-danger px-4 text-danger c-hover"
+                                    href="./home.html#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
-        </div>
-    </header>
+        </header>
+    </section>
 
     <!-- Drone Services Information -->
-    <section id="drone-services">
-        <div class="container">
-            <h2>Professional Drone Services</h2>
-            <p>
-                At AeroSolutions, we specialize in professional drone services for various industries. Our drones provide cutting-edge solutions for:
-            </p>
-            <ul>
-                <li>Aerial marketing and media production</li>
-                <li>Inspections of wind turbines and high-voltage installations</li>
-                <li>Data collection for environmental monitoring</li>
-                <li>Precision mapping and surveying</li>
-            </ul>
-            <p>
-                Our team of certified drone pilots ensures safe and accurate operations, delivering high-quality results that meet the needs of our clients. Whether you are looking for aerial footage or detailed inspections, our drone services provide cost-effective, reliable, and innovative solutions.
+    <section class="">
+        <div class="container mt-css pt-4">
+            <h1 class="mb-3 mt-3 text-center mobile-small-font">Professional <b><span class="text-danger">Drone
+                        Services</span></b></h1>
+            <p class="mb-4 text-center para-in-headerspace">
+                <b>At AeroSolutions,</b> we specialize in professional drone services for various
+                industries.
+                <b><span class="text-danger">Our drones</span></b> provide cutting-edge solutions for:
             </p>
         </div>
     </section>
 
-    <!-- Footer Section -->
-    <footer>
+    <section>
         <div class="container">
-            <p>&copy; 2024 AeroSolutions. All rights reserved.</p>
+            <!-- Image Section -->
+            <div class="custom-image text-center mb-3">
+                <img class="img-fluid rounded-4" src="images/drone-services.jpg" alt="Professional Drone Services">
+            </div>
+
+            <!-- Services List -->
+            <div class="para-in-headerspace my-4 mx-2">
+                <ul class="list-unstyled">
+                    <li class="fw-bold">
+                        <span class="text-danger"><i class="ri-arrow-right-line"></i></span> Aerial marketing
+                        and media production
+                    </li>
+                    <li class="fw-bold">
+                        <span class="text-danger"><i class="ri-arrow-right-line"></i></span> Inspections of wind
+                        turbines and high-voltage installations
+                    </li>
+                    <li class="fw-bold">
+                        <span class="text-danger"><i class="ri-arrow-right-line"></i></span> Data collection for
+                        environmental monitoring
+                    </li>
+                    <li class="fw-bold">
+                        <span class="text-danger"><i class="ri-arrow-right-line"></i></span> Precision mapping
+                        and surveying
+                    </li>
+                </ul>
+
+                <p class=""> Our team of certified drone pilots ensures safe and accurate operations, delivering
+                    high-quality
+                    results that meet the needs of our clients. Whether you are looking for aerial footage or
+                    detailed
+                    inspections, our drone services provide cost-effective, reliable, and innovative solutions.
+                </p>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="container-fluid bg-white shadow-css mt-5">
+        <div class="text-center pt-5 pb-3">
+            <p class="mb-0">© 2024 AeroSolutions. All Rights Reserved.</p>
+            <p class="d-flex justify-content-center align-items-center mt-0">
+                <a href="#" class="nav-link text-danger me-2">Privacy Policy</a>  | 
+                <a href="#" class="nav-link text-danger ms-2">Terms of Service</a>
+            </p>
         </div>
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
