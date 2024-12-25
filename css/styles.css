@@ -9,7 +9,7 @@ body {
 
 /* header */
 .a-hover:hover {
-    color: red !important;
+    color: rgb(10, 80, 165) !important;
 }
 .c-hover:hover {
     background-color: black !important;
@@ -17,7 +17,7 @@ body {
     color: white !important;
 }
 .active {
-    color: red !important;
+    color: rgb(10, 80, 165) !important;
 }
 .navbar-collapse {
     z-index: 1;
@@ -68,8 +68,8 @@ body {
 /* Custom card */
 .custom-card {
     border: 0;
-    border-bottom: 4px solid #d9534f;
-    border-left: 4px solid #d9534f;
+    border-bottom: 4px solid #4f8fd9;
+    border-left: 4px solid #4f8fd9;
     border-radius: 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
     display: flex;
@@ -87,7 +87,7 @@ body {
 .custom-card-title {
     font-size: 1.25rem;
     font-weight: bold;
-    color: #d9534f;
+    color: rgb(36, 94, 165);
     transition: .2s ease-in;
 }
 
@@ -193,8 +193,8 @@ body {
 }
 
 .learnIn-focus-area {
-    border: 2px solid red;
-    color: red;
+    border: 2px solid rgb(10, 80, 165);
+    color:rgb(10, 80, 165);
     padding: 10px 20px;
     cursor: pointer;
     text-transform: uppercase;
@@ -209,7 +209,7 @@ body {
 /* Contact Section Styles */
 
 .contact-container {
-    border: 2px solid red;
+    border: 2px solid rgb(10, 80, 165);
     border-radius: 8px;
     box-shadow: 0 5px 20px rgba(88, 71, 71, 0.205);
 }
@@ -253,8 +253,8 @@ body {
     font-size: 1.1rem;
     border-radius: 5px;
     background-color: #fff !important;
-    color: red !important;
-    border: 2px solid red !important;
+    color: rgb(10, 80, 165) !important;
+    border: 2px solid rgb(10, 80, 165) !important;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -279,12 +279,12 @@ body {
 }
 
 .c-hov-css {
-    border-bottom: 1px solid red !important;
+    border-bottom: 1px solid rgb(10, 80, 165) !important;
     transition: .2s ease-in !important;
 }
 
 .h3-css {
-    color: red !important;
+    color:rgb(10, 80, 165) !important;
     transition: .2s ease-in !important;
 }
 
