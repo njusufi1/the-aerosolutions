@@ -19,14 +19,44 @@ body {
 .active {
     color: rgb(10, 80, 165) !important;
 }
-.navbar-collapse {
-    z-index: 1;
+
+.navbar-brand img {
+    max-width: 100%; 
+    height: auto; 
+    max-height: 80px; 
 }
+
+#head, #head2, #head3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+
+.navbar-toggler {
+    position: absolute;
+    right: 10px;  
+}
+
+
 @media (max-width: 991px) {
-    .s-css {
-        box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+    .navbar-collapse {
+        flex-grow: 0;
     }
 }
+
+
+.navbar-nav {
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 10px;  
+}
+
+
  
 
 /* crocfast.html */
@@ -167,9 +197,6 @@ body {
         font-size: 1rem;
         width: 100%;
     }
-}
-#head{
-    flex-wrap: nowrap;
 }
 
 .carousel-item img {

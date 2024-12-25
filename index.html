@@ -35,6 +35,7 @@
                   aria-controls="navbarSupportedContent"
                   aria-expanded="false"
                   aria-label="Toggle navigation"
+                  style="background-color: aliceblue; color:rgb(8, 64, 132); border: solid 2px rgb(8, 64, 132);"
                 >
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -270,6 +271,20 @@
       crossorigin="anonymous"
     ></script>
 
-    
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+          const navbarCollapse = document.querySelector('.navbar-collapse');
+  
+          navLinks.forEach(link => {
+              link.addEventListener('click', () => {
+                  if (navbarCollapse.classList.contains('show')) {
+                      new bootstrap.Collapse(navbarCollapse).toggle();
+                  }
+              });
+          });
+      });
+  </script>
+  
 </body>
  </html>
