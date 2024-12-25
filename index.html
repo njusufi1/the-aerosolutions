@@ -220,8 +220,9 @@
     <section class="container-fluid mt-5 d-flex bg-light align-items-center justify-content-center pb-5 pt-5" id="contact">
         <div class="container w-100-css bg-white pt-3">
             <h2 class="contact-heading text-center">Get in <span class="text-danger"> Touch</span></h2>
-            <form action="#" method="POST" class="contact-form">
-                <div class="form-group">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+              <input type="hidden" name="access_key" value="628d7e18-3187-48e0-b40b-798750865d68">  
+              <div class="form-group">
                     <input type="text" name="name" placeholder="Your Name" class="form-input bg-light" required>
                 </div>
                 <div class="form-group">
@@ -266,41 +267,6 @@
       crossorigin="anonymous"
     ></script>
 
-<script>
-import emailjs from '@emailjs/browser';
-
-const form = document.querySelector('.contact-form');
-const nameInput = form.elements['name'];
-const emailInput = form.elements['email'];
-const messageInput = form.elements['message'];
-
-function sendEmail(e) {
-  e.preventDefault(); 
-
-  const params = {
-    from_name: nameInput.value,
-    to: 'info@the-aerosolutions.com', 
-    message: messageInput.value,
-    reply_to: emailInput.value
-  };
-
-  emailjs.init('h8UpgUHsb1QxnCGRH'); 
-  emailjs.send('service_z93w4nk', 'template_pfpzbo7', params) 
-    .then(function(response) {
-      console.log('SUCCESS!', response.status, response.text);
-     
-      alert('Your message was sent successfully!');
-     
-      form.reset();
-    }, function(error) {
-      console.log('FAILED...', error);
-      
-      alert('An error occurred while sending your message. Please try again later.');
-    });
-}
-
-form.addEventListener('submit', sendEmail);
-</script>
     
 </body>
  </html>
