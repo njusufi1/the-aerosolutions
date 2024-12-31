@@ -219,7 +219,7 @@ body {
 .learnIn-focus-area:hover{
     background-color: rgb(10, 80, 165);
     color: #fff;
-    border: none;
+    border: 2px solid rgb(10, 80, 165);
 }
 
 .learnIn-focus-area {
